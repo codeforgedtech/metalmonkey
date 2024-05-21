@@ -1,0 +1,105 @@
+.blog-posts {
+    width: 800px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #555;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    background-color: #222;
+    color: #ddd;
+   
+    justify-content: flex-end; /* Justera elementen till det övre högra hörnet */
+    align-items: flex-start; /* Justera elementen till det övre högra hörnet */
+     
+      
+  }
+  
+  .blog-post h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #ffca28;
+  }
+  
+  .blog-post .author {
+    font-style: italic;
+    color: #888;
+  }
+  
+  .blog-post .date {
+    font-size: 14px;
+    color: #aaa;
+  }
+  
+  .blog-post .content {
+    margin-top: 15px;
+    color: #ddd;
+  }
+  
+  .image-container {
+    flex: 0 0 auto; /* Bilden ska inte sträcka sig och behålla sin storlek */
+    align-self: flex-start; /* Placera bilden längst upp */
+  }
+  
+  .image-container img {
+    width: 200px; /* Justera bildens bredd efter behov */
+    height: auto; /* Så att höjden anpassar sig efter bredden */
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .category,
+  .tag {
+    display: inline-block;
+    background-color: #ffca28;
+    color: #222;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    font-size: 12px;
+  }
+  
+  .posts {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 2px solid #444;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    background-color: #333;
+  }
+  
+  .posts h3 {
+    margin-right: 10px;
+    color: #ffca28;
+  }
+  
+  .title-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .title-info h3 {
+    margin: 0;
+  }
+  
+  .info {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+  }
+  
+  .list {
+    display: flex;
+    width: 100%;
+  }
+  
+  .bandMembers {
+    width: 300px;
+    color: #ddd;
+  }
+  
+  .bandMembers ul {
+    list-style-type: none;
+  }

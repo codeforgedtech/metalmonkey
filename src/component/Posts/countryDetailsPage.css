@@ -1,0 +1,112 @@
+.country-details-container {
+  width: 800px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #555;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  background-color: #222;
+  color: #ddd;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  font-family: 'Arial', sans-serif;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #f39c12; /* Använd en ljus färg för rubriken */
+  text-shadow: 2px 2px 4px #000; /* Lägg till en skugga för att göra texten mer framträdande */
+}
+
+.album-list, .band-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.album-list li, .band-list li {
+  width: calc(25% - 10px);
+  margin: 5px;
+  background-color: #333;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  transition: transform 0.2s;
+}
+
+.album-list li:hover, .band-list li:hover {
+  transform: scale(1.05);
+}
+
+.album-list li img, .band-list li img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.album-title {
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #e74c3c; /* Använd en ljus färg för albumtiteln */
+  text-shadow: 1px 1px 2px #000; /* Lägg till en skugga för att göra texten mer framträdande */
+}
+
+
+
+.band-list li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.band-list li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px #000; /* Lägg till en skugga för att göra texten mer framträdande */
+}
+
+.band-list li a:hover {
+  color: #f39c12; /* Ändra färgen vid hovring */
+}
+
+.back-button{
+  display: inline-block;
+  color: #ff4500; /* Använd en ljus färg för rubriken */
+  text-shadow: 2px 2px 4px #000;
+  padding: 5px 10px;
+  font-weight: 800;
+  border-radius: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+ 
+ 
+}
+.back-button:hover{
+  display: inline-block;
+  color: #ffca28;
+  text-shadow: 2px 2px 4px #000;
+  font-weight: 800;
+  padding: 5px 10px;
+  border-radius: 5px;
+ 
+  margin-right: 5px;
+  margin-bottom: 5px;
+
+}
+.bands-logo-c {
+ width: 150px;
+  border-radius: 2px;
+  margin-right: 10px;
+  vertical-align: middle;
+}

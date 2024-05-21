@@ -1,0 +1,114 @@
+.edit-blog-container {
+  width: 800px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #555;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  background-color: #222;
+  color: #ddd;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.edit-blog-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 2rem;
+  color: white;
+}
+
+.edit-blog-form {
+  display: grid;
+  gap: 15px;
+  color: white;
+}
+
+.edit-blog-form label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: white;
+}
+
+.edit-blog-form input[type="text"],
+.edit-blog-form input[type="file"],
+.edit-blog-form .quill-editor {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+
+}
+
+.edit-blog-form button[type="button"],
+.edit-blog-form button[type="submit"] {
+  padding: 10px 15px;
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.edit-blog-form button[type="button"]:hover,
+.edit-blog-form button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+.tag, .category, .playlist, .member {
+  display: flex;
+  align-items: center;
+  background-color: #e0e0e0;
+  border-radius: 4px;
+  padding: 5px 10px;
+  margin: 5px 0;
+}
+
+.remove-icon {
+  margin-left: 10px;
+  cursor: pointer;
+  color: #ff4d4d;
+}
+
+.add-tag, .add-category, .add-playlist, .add-member {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.image-preview img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.rating-star {
+  display: flex;
+  align-items: center;
+}
+
+.rating-star .rating {
+  margin-right: 10px;
+}
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #f0f0f0; /* Anpassa färgen efter ditt temat */
+  padding: 20px;
+  z-index: 1000;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 999; /* Måste vara under modalens z-index */
+}

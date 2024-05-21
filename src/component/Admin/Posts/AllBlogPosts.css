@@ -1,0 +1,106 @@
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  background-color: #222;
+  color: #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+  font-family: 'Arial', sans-serif;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #555;
+}
+
+h2 {
+  text-align: center;
+  color: #f39c12;
+  text-shadow: 2px 2px 4px #000;
+}
+
+.sort-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.sort-buttons button {
+  background-color: #333;
+  color: #e74c3c;
+  text-shadow: 1px 1px 2px #000;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+}
+
+.sort-buttons button:hover,
+.sort-buttons button.active {
+  background-color: #555;
+  color: #fff;
+  transform: scale(1.05);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #444;
+}
+
+th {
+  background-color: #333;
+  color: #f39c12;
+  text-shadow: 1px 1px 2px #000;
+}
+
+td {
+  background-color: #444;
+  color: #ddd;
+}
+
+.action-link {
+  margin-right: 10px;
+  color: #e74c3c;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.action-link:hover {
+  color: #fff;
+}
+.action-link:visited {
+  color: #e74c3c; /* or whatever color you want visited links to have */
+}
+.pagination {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.page-button {
+  background-color: #333;
+  color: #e74c3c;
+  text-shadow: 1px 1px 2px #000;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+}
+
+.page-button:hover,
+.page-button.active {
+  background-color: #555;
+  color: #fff;
+  transform: scale(1.05);
+}

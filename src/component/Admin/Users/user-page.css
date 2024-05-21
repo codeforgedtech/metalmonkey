@@ -1,0 +1,56 @@
+.user-info-container {
+  width: 100%; /* Anpassa bredden till hela tillgängliga utrymmet */
+  max-width: 800px; /* Begränsa maxbredden för att undvika att innehållet sträcker sig för långt */
+  margin: auto; /* Centrera innehållet horisontellt */
+  padding: 20px;
+  border: 1px solid #ddd; /* Använd en ljusare gränsfärg för att skilja innehållet från bakgrunden */
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Använd en lättare skugga för en mjukare effekt */
+  background-color: #222; /* Använd en ljusare bakgrundsfärg */
+  color: #333; /* Använd en mörkare textfärg för bättre kontrast mot bakgrunden */
+  margin-bottom: 10px;
+color: #fff;
+}
+
+.user-info-container h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: white; /* Använd en accentfärg för rubriken */
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: bold;
+  color: white; /* Använd en mörkare textfärg för tydligare etiketter */
+}
+
+input[type="text"] {
+  width: calc(100% - 20px); /* Anpassa bredden för textinmatningsfälten och dra av padding för att undvika överflödigt utrymme */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box; /* Inkludera padding och gränsstorlek i det totala elementets bredd */
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.remove-icon {
+  cursor: pointer;
+  color: red;
+  margin-left: 5px;
+}

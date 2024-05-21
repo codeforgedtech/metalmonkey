@@ -1,0 +1,10 @@
+.home {
+    display: flex;
+    flex-direction: column;
+   
+  }
+  
+  .main {
+    flex-grow: 1;
+    padding: 20px;
+  }
