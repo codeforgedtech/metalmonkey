@@ -1,0 +1,151 @@
+.create-blog-container {
+  width: 800px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #555;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  background-color: #222;
+  color: #ddd;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.create-blog-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.create-blog-form {
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+.create-blog-form div {
+  margin-bottom: 15px;
+}
+
+.create-blog-form label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  display: block;
+  color: white;
+}
+
+.create-blog-form input[type="text"],
+.create-blog-form input[type="file"],
+.create-blog-form .quill-editor {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+
+
+.add-tag,
+.add-category,
+.add-playlist,
+.add-member {
+  display: flex;
+  align-items: center;
+}
+
+.add-tag input,
+.add-category input,
+.add-playlist input,
+.add-member input {
+  flex: 1;
+}
+
+.add-tag button,
+.add-category button,
+.add-playlist button,
+.add-member button {
+  padding: 5px 10px;
+  margin-left: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-tag button:hover,
+.add-category button:hover,
+.add-playlist button:hover,
+.add-member button:hover {
+  background-color: #0056b3;
+}
+
+.tag,
+.category,
+.playlist,
+.member {
+  display: inline-block;
+  background-color: yellow;
+  padding: 5px 10px;
+  margin: 5px;
+  border-radius: 5px;
+  color:#222
+}
+
+.remove-icon {
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.rating-star {
+  display: flex;
+  align-items: center;
+}
+
+.rating-star .rating {
+  margin-right: 10px;
+}
+
+.image-preview {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.image-preview img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.create-blog-form button[type="submit"] {
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  align-self: center;
+}
+
+.create-blog-form button[type="submit"]:hover {
+  background-color: #218838;
+}
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #f0f0f0; /* Anpassa färgen efter ditt temat */
+  padding: 20px;
+  z-index: 1000;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 999; /* Måste vara under modalens z-index */
+}

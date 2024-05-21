@@ -1,0 +1,86 @@
+.album-details-container {
+  width: 800px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 1px solid #555;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  background-color: #222;
+  color: #ddd;
+  display: flex; /* Använd flexbox för att göra innehållet i containern till flexibla element */
+  flex-direction: column; /* Visa elementen i kolumnlayout */
+  justify-content: flex-start; /* Justera elementen till det övre vänstra hörnet */
+  align-items: center; /* Justera elementen till det övre vänstra hörnet */
+}
+
+h2 {
+  font-size: px;
+  margin-bottom: 20px;
+}
+
+.album-list {
+  list-style: none;
+  padding: 0;
+  display: flex; /* Använd flexbox för att göra albumlistan till ett flexibelt element */
+  flex-wrap: wrap; /* Tillåt element att flyta till nästa rad om det inte finns tillräckligt med plats */
+  justify-content: center; /* Centrera albumlistan horisontellt */
+}
+
+.album-list li {
+  width: calc(20.33% - 10px);
+  margin-bottom: 20px;
+}
+
+.album-list li a {
+  display: block;
+  margin: 5px;
+  background-color: #333;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+.album-list li img {
+  
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.album-title  {
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 10px;
+  text-align: center;
+}
+.back-button{
+  display: inline-block;
+  color: #ff4500; /* Använd en ljus färg för rubriken */
+  text-shadow: 2px 2px 4px #000;
+  padding: 5px 10px;
+  font-weight: 800;
+  border-radius: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+ 
+ 
+}
+.back-button:hover{
+  display: inline-block;
+  color: #ffca28;
+  text-shadow: 2px 2px 4px #000;
+  font-weight: 800;
+  padding: 5px 10px;
+  border-radius: 5px;
+ 
+  margin-right: 5px;
+  margin-bottom: 5px;
+
+}
+.band-logos{
+  width:250px;
+  height: auto;
+}

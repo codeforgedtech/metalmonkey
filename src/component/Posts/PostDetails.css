@@ -1,0 +1,162 @@
+.blog-posts-det {
+  width: 800px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #555;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  background-color: #222;
+  color: #ddd;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  font-family: 'Arial', sans-serif;
+  margin-bottom: 20px;
+  margin-top: 20px;  
+}
+
+.blog-post-det  h3 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #f39c12; /* Använd en ljus färg för rubriken */
+  text-shadow: 2px 2px 4px #000;
+}
+
+.blog-post-det .author {
+  font-style: italic;
+  color: #888;
+}
+
+.blog-post-det .date {
+  font-size: 14px;
+  color: #aaa;
+}
+
+.blog-post-det .content {
+  margin-top: 15px;
+  color: #f39c12; /* Använd en ljus färg för rubriken */
+  text-shadow: 2px 2px 4px #000; 
+}
+
+.image-container-det {
+  flex: 0 0 auto; /* Bilden ska inte sträcka sig och behålla sin storlek */
+  align-self: flex-start; /* Placera bilden längst upp */
+}
+
+.image-container-det img {
+  width: 300px; /* Justera bildens bredd efter behov */
+  height: auto; /* Så att höjden anpassar sig efter bredden */
+  background-color: #333;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  transition: transform 0.2s;
+  margin-left:50px;
+}
+.rating-det{
+  padding-left:50px;
+color: #f39c12; /* Använd en ljus färg för rubriken */
+  text-shadow: 2px 2px 4px #000; 
+}
+.category-det-det ,
+.tag-det-det{
+  display: inline-block;
+  color: #f39c12; /* Använd en ljus färg för rubriken */
+  text-shadow: 2px 2px 4px #000; 
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  font-size: 12px;
+  
+}
+
+.posts-det {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+
+  border-radius: 5px;
+  margin-bottom: 20px;
+ 
+}
+
+.posts-det h3 {
+  margin-right: 10px;
+  color: #f39c12; /* Använd en ljus färg för rubriken */
+  text-shadow: 2px 2px 4px #000;
+}
+
+.title-info-det {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.title-info-det h3 {
+  margin: 0;
+}
+
+.info-det {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.list-det {
+  display: flex;
+  width: 100%;
+}
+
+.bandMembers-det {
+  padding-left:50px;
+  width: 300px;
+   color: #f39c12; /* Använd en ljus färg för rubriken */
+  text-shadow: 2px 2px 4px #000;
+}
+
+.bandMembers-det ul {
+  list-style-type: none;
+}
+.back-button{
+  display: inline-block;
+  color: #f39c12; /* Använd en ljus färg för rubriken */
+  text-shadow: 2px 2px 4px #000;
+  padding: 5px 10px;
+  font-weight: 800;
+  border-radius: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+ 
+}
+.back-button:hover{
+  display: inline-block;
+  color: #ff4500; /* Använd en ljus färg för rubriken */
+  text-shadow: 2px 2px 4px #000;
+  padding: 5px 10px;
+  font-weight: 800;
+  border-radius: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  
+
+}
+.playlists-det {
+  padding-left:50px;
+  width: 300px;
+   color: #f39c12; /* Använd en ljus färg för rubriken */
+  text-shadow: 2px 2px 4px #000;
+}
+.playlists-det ul {
+  list-style-type: none;
+}
+.play-det{
+  color:#ff4500;
+
+}
+.play-det:hover{
+  color:#f39c12;
+  
+}

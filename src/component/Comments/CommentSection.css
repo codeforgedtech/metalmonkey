@@ -1,0 +1,43 @@
+.comment-section {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 20px;
+  }
+  
+  .comment-section h3 {
+    margin-bottom: 10px;
+  }
+  
+  .comment-section form {
+    margin-bottom: 10px;
+  }
+  
+  .comment-section textarea {
+    width: 97%;
+    height: 100px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    resize: none;
+  }
+  
+  .comment-section button {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .comment-section button:hover {
+    background-color: #0056b3;
+  }
+  
+  .comment-section ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .comment-section li {
+    margin-bottom: 10px;
+  }
